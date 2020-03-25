@@ -1,0 +1,18 @@
+{
+  "name": "grapb-pictures",
+  "version": "1.0.0",
+  "description": "A tool for Windows which allows to grab pictures from lock screen and set them to the desktop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Alexander Piskun",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "image-size": "^0.8.3"
+  }
+}

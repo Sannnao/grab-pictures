@@ -1,4 +1,4 @@
-# grab-pictures
+# How to get pictures from lock screen?
 A tool for Windows which allows to grab pictures from lock screen and set them to the desktop :sunrise_over_mountains:
 
 ## :grey_exclamation: Description

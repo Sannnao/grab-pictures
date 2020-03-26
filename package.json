@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "pkg index.js --targets node12-win-x64"
   },
   "author": "Alexander Piskun",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "pkg": "^4.4.4"
   },
   "dependencies": {
     "image-size": "^0.8.3"
